@@ -1,0 +1,96 @@
+*
+{
+  margin:0px;
+  padding:0px;
+}
+.container
+{
+  height:100vh;
+  width:100vw;
+  background-color:black;
+  display:grid;
+  grid-template-columns:repeat(2,200px);
+  grid-template-rows:100px;
+  
+}
+.header
+{
+  background-color:dimgray;
+  grid-column:1/4;
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  align-items:center;
+  column-gap:20px;
+}
+.main
+{
+  background-color:black;
+  grid-column:2/4;
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  align-items:center;
+  
+}
+.footer
+{
+  background-color:black;
+  grid-column:1/2;
+  grid-row:2/3;
+  color:white;
+  font-size:20px;
+
+
+}
+.titleOne
+{
+  font-size:30px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing:6px;
+  color:darkblue;
+  
+}
+.imagemOne
+{
+  height:100px;
+  width:100px;
+
+}
+.caixa
+{
+  background-color:white;
+  height:450px;
+  width:450px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  border-radius:100%;
+  border:2px solid rgb(7, 79, 79);
+  
+}
+.p1
+{
+  letter-spacing:3px;
+  color:darkblue;
+  font-family:'Times New Roman', Times, serif;
+  font-size:18px;
+}
+.abbr1
+{
+  background-color:chocolate;
+}
+.mensagem
+{
+  height:300px;
+  width:300px;
+  text-align:center;
+}
+.titleTwo
+{
+  letter-spacing:4px;
+  color:coral;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size:18px;
+}
